@@ -151,6 +151,8 @@ div.projectsimages {
 
 div.projectsimages img {
     margin-bottom: 20px;
+    width: 343px;
+    height: 253px;
 }
 
 div.projectsimages h3 {
