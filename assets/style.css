@@ -51,6 +51,7 @@ img#ringsimgm {
     position: absolute;
     top: 1287px;
     left: 189px;
+    overflow-x: hidden;
 }
 
 img#ringsimgmf {
