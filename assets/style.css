@@ -246,6 +246,8 @@ div.formitens{
 
 div#contactinputd {
     text-align: right;
+    border-bottom: 1px solid white;
+    margin-bottom: 39px;
 }
 
 div#contactinputd input {
@@ -256,4 +258,23 @@ div#contactinputd input {
     color: white;
     border-bottom: 2px solid var(--Green);
     padding: 10px;
+    margin-bottom: 87px;
+
+}
+
+div#adamsocialf {
+    font-size: 24px;
+    color: var(--White);
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+div#adamsocialf p {
+    margin-bottom: 20px;
+}
+
+.icons {
+    width: 19.69px;
+    margin: 0px 10px;
 }
