@@ -25,7 +25,6 @@ body {
 }
 
 main {
-    padding: 0px 16px;
 }
 
 img#ringsimg {
@@ -202,7 +201,6 @@ div#lastpropjectimage {
 
 div#containercf {
     background-color: var(--Dark-Grey);
-    padding: 0px 16px;
 }
 
 div#contactt {
@@ -277,4 +275,4 @@ div#adamsocialf p {
 .icons {
     width: 19.69px;
     margin: 0px 10px;
-}
+} 
