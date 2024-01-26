@@ -19,10 +19,6 @@
     font-family: SpaceGrotesk;
 }
 
-body,html {
-    width: 100vw;
-}
-
 body {
     background-color: var(--black);
     overflow-x: hidden;
@@ -51,7 +47,7 @@ img#ringsimgm {
     position: absolute;
     top: 1287px;
     left: 189px;
-    overflow-x: hidden;
+    width: 530px;
 }
 
 img#ringsimgmf {
