@@ -39,21 +39,22 @@ div#divcircleimg {
     position: absolute;
     width: 100%;
     top: 254px;
-    left: 50px;
-    text-align: right;
+    overflow-x: hidden;
+}
+
+img#circleimg {
+    padding-left: 90%;
 }
 
 div#divringimgm {
     position: absolute;
-    width: 290px;
+    width: 100%;
     top: 1287px;
-    left: 50%;
-    text-align: right;
     overflow-x: hidden;
 }
 
 img#ringsimgm {
-    overflow-x: hidden;
+    padding-left: 50%;
 }
 
 img#ringsimgmf {
