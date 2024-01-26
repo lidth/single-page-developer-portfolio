@@ -37,6 +37,7 @@ img#circleimg {
     width: 129px;
     left: 311px;
     top: 254px;
+    overflow: hidden;
 }
 
 div#adamsocial {
