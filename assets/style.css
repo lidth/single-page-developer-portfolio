@@ -45,15 +45,15 @@ div#divcircleimg {
 
 div#divringimgm {
     position: absolute;
-    width: 228px;
+    width: 290px;
     top: 1287px;
-    left: 250px;
+    left: 50%;
     text-align: right;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 img#ringsimgm {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 img#ringsimgmf {
