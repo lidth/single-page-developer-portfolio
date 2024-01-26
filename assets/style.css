@@ -19,10 +19,13 @@
     font-family: SpaceGrotesk;
 }
 
+body,html {
+    width: 100vw;
+}
+
 body {
     background-color: var(--black);
     overflow-x: hidden;
-    width: 100vw;
 }
 
 main {
