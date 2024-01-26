@@ -37,8 +37,10 @@ img#ringsimg {
 }
 
 img#circleimg {
-    display: block;
-    margin-left: 372px;
+    position: absolute;
+    width: 129px;
+    left: 311px;
+    top: 254px;
 }
 
 img#ringsimgm {
@@ -275,4 +277,4 @@ div#adamsocialf p {
 .icons {
     width: 19.69px;
     margin: 0px 10px;
-} 
+}
