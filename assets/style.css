@@ -25,6 +25,7 @@ body {
 }
 
 main {
+    padding: 0px 16px;
 }
 
 img#ringsimg {
@@ -36,10 +37,8 @@ img#ringsimg {
 }
 
 img#circleimg {
-    position: absolute;
-    width: 129px;
-    left: 311px;
-    top: 254px;
+    display: block;
+    margin-left: 372px;
 }
 
 img#ringsimgm {
@@ -201,6 +200,7 @@ div#lastpropjectimage {
 
 div#containercf {
     background-color: var(--Dark-Grey);
+    padding: 0px 16px;
 }
 
 div#contactt {
