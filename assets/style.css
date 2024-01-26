@@ -19,14 +19,9 @@
     font-family: SpaceGrotesk;
 }
 
-html {
-    overflow-x: hidden;
-}
-
 body {
     background-color: var(--black);
     overflow-x: hidden;
-
 }
 
 main {
@@ -46,6 +41,18 @@ img#circleimg {
     width: 129px;
     left: 311px;
     top: 254px;
+}
+
+img#ringsimgm {
+    position: absolute;
+    top: 1287px;
+    left: 189px;
+}
+
+img#ringsimgmf {
+    position: absolute;
+    top: 4623px;
+    left: -343px;
 }
 
 div#adamsocial {
