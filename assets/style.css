@@ -21,7 +21,8 @@
 
 body {
     background-color: var(--black);
-    overflow: hidden;
+    overflow-x: hidden;
+    padding: 0px 16px;
 }
 
 img#ringsimg {
@@ -63,4 +64,120 @@ div#adamkeyesprofile img{
     display: block;
     margin: auto;
     width: 174px;
+    margin-bottom: 40px;
+}
+
+div#nmeetu {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+span.adamunderline {
+    text-decoration: underline var(--Green);
+}
+
+div#nmeetu h1 {
+    font-weight: bold;
+    color: var(--White);
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+div#nmeetu p {
+    color: var(--Grey);
+    font-size: 16px;
+    width: 343px;
+    margin: auto;
+}
+
+div#nmeetu h2 {
+    color: var(--White);
+    text-decoration: underline var(--Green);
+    text-underline-offset: 10px;
+    margin-top: 24px;
+}
+
+div#teclist {
+    border-top: 1px solid var(--White);
+    border-bottom: 1px solid var(--White);
+    padding: 40px 0px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+p.tec {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p.yexp {
+    font-size: 16px;
+    color: var(--Grey);
+    margin-bottom: 24px;
+}
+
+p#iyexp {
+    margin-bottom: 0px;
+}
+
+div#projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#projects h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--White);
+
+}
+
+div#projects p {
+    color: var(--White);
+    font-weight: bold;
+    text-decoration: underline var(--Green);
+    text-underline-offset: 10px;
+    padding-top: 7px;
+    margin-bottom: 40px;
+}
+
+div.projectsimages {
+    color: white;
+    margin-bottom: 40px;
+}
+
+div.projectsimages img {
+    margin-bottom: 20px;
+}
+
+div.projectsimages h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+div.projtecs {
+    display: flex;
+    color: var(--Grey);
+}
+
+div.projtecs p {
+    margin-right: 18px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+div.projectsimages a {
+    color: var(--White);
+    font-weight: bold;
+    margin-right: 30px;
+    text-decoration: underline var(--Green);
+    text-underline-offset: 10px;
+}
+
+div#lastpropjectimage {
+    margin-bottom: 80px;
 }
