@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@font-face {
+    font-family: SpaceGrotesk;
+    src: url(fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+:root {
+    --black: #151515;
+    --Dark-Grey: #242424;
+    --Green: #4EE1A0;
+    --Grey: #D9D9D9;
+    --White: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SpaceGrotesk;
+}
+
+body {
+    background-color: var(--black);
+}
+
+img#ringsimg {
+    position: absolute;
+    display: block;
+    width: 530px;
+    left: -342px;
+    top: 124px;
+}
+
+img#circleimg {
+    position: absolute;
+    display: block;
+    width: 129px;
+    left: 311px;
+    top: 254px;
+}
+
+div#adamsocial {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    font-size: 24px;
+    color: var(--White);
+    font-weight: bold;
+    text-align: center;
+}
+
+div#adamsocial p {
+    margin-bottom: 20px;
+}
+
+.icons {
+    width: 19.69px;
+    margin: 0px 10px;
+}
+
+div#adamkeyesprofile img{
+    display: block;
+    margin: auto;
+    width: 174px;
+}
