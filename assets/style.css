@@ -21,7 +21,6 @@
 
 body {
     background-color: var(--black);
-    overflow-x: hidden;
 }
 
 main {
@@ -36,18 +35,25 @@ img#ringsimg {
     top: 124px;
 }
 
-img#circleimg {
+div#divcircleimg {
     position: absolute;
-    width: 129px;
-    left: 311px;
+    width: 100%;
     top: 254px;
+    left: 50px;
+    text-align: right;
+}
+
+div#divringimgm {
+    position: absolute;
+    width: 228px;
+    top: 1287px;
+    left: 250px;
+    text-align: right;
+    overflow: hidden;
 }
 
 img#ringsimgm {
-    position: absolute;
-    top: 1287px;
-    left: 189px;
-    width: 530px;
+    overflow: hidden;
 }
 
 img#ringsimgmf {
