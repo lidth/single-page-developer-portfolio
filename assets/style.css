@@ -231,3 +231,21 @@ div.formitens input, textarea {
     border: none;
     outline: none;
 }
+
+div.formitens{
+    margin-bottom: 32px;
+}
+
+div#contactinputd {
+    text-align: right;
+}
+
+div#contactinputd input {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: var(--Dark-Grey);
+    border: none;
+    color: white;
+    border-bottom: 2px solid var(--Green);
+    padding: 10px;
+}
