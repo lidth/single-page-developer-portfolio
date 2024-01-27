@@ -123,8 +123,16 @@
         margin-bottom: 0px;
     }
 
-    
+    div#projects {
+        margin-bottom: 60px;
+    }
 
+    div#projects h2{
+        font-size: 72px;
+    }
 
+    div#projects p{
+        padding-top: 40px;
+    }
 
 }
