@@ -83,11 +83,15 @@ div#adamsocial p {
     margin: 0px 10px;
 }
 
-div#adamkeyesprofile img{
+div#adamkeyesprofile img#adampmobile{
     display: block;
     margin: auto;
     width: 174px;
     margin-bottom: 40px;
+}
+
+div#adamkeyesprofile img#adamptablet {
+    display: none;
 }
 
 div#nmeetu {
@@ -113,11 +117,13 @@ div#nmeetu p {
     margin: auto;
 }
 
-div#nmeetu h2 {
+div#nmeetu p#contp {
     color: var(--White);
     text-decoration: underline var(--Green);
     text-underline-offset: 10px;
     margin-top: 24px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 div#teclist {

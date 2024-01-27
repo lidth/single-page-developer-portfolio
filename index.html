@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/mediaquery.css">
+
   <title>Frontend Mentor | Single-page developer portfolio</title>
 </head>
 <body>
@@ -19,40 +21,51 @@
   <main>
   <div id="adamsocial">
     <p>adamkeyes</p>
+    <div id="dicons">
     <img src="assets/images/icon-github.svg" alt="github icon" class="icons">
     <img src="assets/images/icon-frontend-mentor.svg" alt="front end icon" class="icons">
     <img src="assets/images/icon-linkedin.svg" alt="linkedin icon" class="icons">
     <img src="assets/images/icon-twitter.svg" alt="twitter icon" class="icons">
-    
+    </div>
+
   </div>
   <div id="adamkeyesprofile">
-    <img src="assets/images/image-profile-mobile.webp" alt="adam profile image">
+    <img src="assets/images/image-profile-mobile.webp" alt="adam profile image" id="adampmobile">
+    <img src="assets/images/image-profile-tablet.webp" alt="adam profile image" id="adamptablet">
   </div>
 
   <div id="nmeetu">
-    <h1>Nice to meet you! I'm <span class="adamunderline">Adam Keyes.</span></h1>
+    <h1><span id="l1nme">Nice to</span> meet you! I'm <span class="adamunderline">Adam Keyes.</span></h1>
     <p>Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
-    <h2>CONTACT ME</h2>
+    <p id="contp">CONTACT ME</p>
   </div>
 
   <div id="teclist">
+
+    <div class="subitem">
     <p class="tec">HTML</p>
     <p class="yexp">4 Years Experience</p>
-
+    </div>
+    <div class="subitem">
     <p class="tec">CSS</p>
     <p class="yexp">4 Years Experience</p>
-
+    </div>
+    <div class="subitem">
     <p class="tec">JavaScript</p>
     <p class="yexp">4 Years Experience</p>
-
+    </div>
+    <div class="subitem">
     <p class="tec">Accessibility</p>
     <p class="yexp">4 Years Experience</p>
-
+    </div>
+    <div class="subitem">
     <p class="tec">React</p>
     <p class="yexp">3 Years Experience</p>
-
+    </div>
+    <div class="subitem">
     <p class="tec">Sass</p>
     <p class="yexp" id="iyexp">3 Years Experience</p>
+    </div>
 
   </div>
 

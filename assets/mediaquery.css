@@ -1,0 +1,103 @@
+@media screen and (min-width: 650px) and (max-width: 768px) {
+
+    main {
+        
+    }
+
+    div#adamsocial {
+        display: flex;
+        width: 90vw;
+        justify-content: space-between;
+    }
+
+    .icons{
+        width: 24px;
+        height: 22px;
+    }
+
+    div#adamkeyesprofile img#adampmobile{
+        display: none;
+    }
+
+    div#adamkeyesprofile {
+    display: flex;
+    justify-content: end;
+    }
+
+    div#adamkeyesprofile img#adamptablet {
+        display: block;
+        width: 322px;
+        margin-bottom: 60px;
+    }
+    
+    div#nmeetu {
+        position: absolute;
+        top: 151px;
+        left: 32px;
+        width: 445px;
+        height: 449px;
+        text-align: unset;
+    }
+
+    div#nmeetu h1 {
+        font-size: 72px;
+        font-weight: bold;
+        letter-spacing: -2.05px;
+        margin-bottom: 60px;
+    }
+
+    span#l1nme {
+        display: block;
+        width: 231px;
+    }
+
+    div#nmeetu p {
+        color: var(--Grey);
+        font-size: 16px;
+        width: 343px;
+        margin: unset;
+    }
+
+    div#nmeetu p#contp {
+        color: var(--White);
+        text-decoration: underline var(--Green);
+        text-underline-offset: 10px;
+        margin-top: 34px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    div#teclist {
+        border-top: 1px solid var(--White);
+        border-bottom: 1px solid var(--White);
+        padding: 40px 0px;
+        color: white;
+        margin-bottom: 100px;
+    }
+
+
+    div.subitem {
+        width: 45%;
+        height: 98px;
+        display: inline-block;
+        margin-bottom: 52px;
+    }
+
+    p.tec {
+        display: block;
+        width: fit-content;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    
+    p.yexp {
+        display: block;
+        width: fit-content;
+        font-size: 18px;
+        color: var(--Grey);
+    }
+    
+    p#iyexp {
+        margin-bottom: 0px;
+    }
+}
