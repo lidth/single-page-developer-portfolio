@@ -1,4 +1,4 @@
-@media screen and (min-width: 650px) and (max-width: 768px) {
+@media screen and (min-width: 650px) and (max-width: 709px) {
 
     img#ringsimg {
         top: 86px;
@@ -18,12 +18,8 @@
     
     img#ringsimgmf {
         position: absolute;
-        top: 4590px;
+        top: 3430px;
         left: -343px;
-    }
-
-    main {
-        
     }
 
     div#adamsocial {
@@ -135,4 +131,284 @@
         padding-top: 40px;
     }
 
+    section#sprojects {
+        padding-left: 16px;
+        margin-bottom: 100px;
+    }
+
+    div.projectsimages {
+        width: fit-content;
+        display: inline-block;
+    }
+
+    div.projectsimages img {
+        max-width: 284px;
+    }
+
+    img.imgmarginr {
+        margin-right: 9px;
+    }
+
+    div.projectstecs {
+        display: flex;
+        color: var(--Grey);
+        width: fit-content;
+    }
+    
+    div#lastpropjectimage {
+        margin-bottom: 0px;
+    }
+    /* -- CONTACT */
+
+    div#contactt h2 {
+        font-size: 72px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    div#contactt p {
+        width: 445px;
+        font-size: 18px;
+        margin: auto;
+        margin-bottom: 48px;
+    }
+
+    div.formitens {
+        width: 445px;
+        margin: auto;
+    }
+
+    div#contactinputd {
+        width: 560px;
+        margin-top: 32px;
+        border-bottom: none;
+    }
+
+    /* -- FOOTER */
+
+    div#adamsocialf {
+        border-top: 1px solid;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+
+    div#adamsocialf p {
+        margin-bottom: 0px;
+    }
+
+    div#adamsocialf img{
+        width: 24px;
+        height: 22px;
+    }
+    
+}
+
+
+@media screen and (min-width: 710px) and (max-width: 768px) {
+
+    img#ringsimg {
+        top: 86px;
+    }
+    
+    div#divcircleimg {
+        top: 471px;
+    }
+    
+    div#divringimgm {
+        top: 1047px;
+    }
+    
+    img#ringsimgm {
+        padding-left: 75%;
+    }
+    
+    img#ringsimgmf {
+        position: absolute;
+        top: 3430px;
+        left: -343px;
+    }
+
+    div#adamsocial {
+        display: flex;
+        width: 90vw;
+        justify-content: space-between;
+    }
+
+    .icons{
+        width: 24px;
+        height: 22px;
+    }
+
+    div#adamkeyesprofile img#adampmobile{
+        display: none;
+    }
+
+    div#adamkeyesprofile {
+    display: flex;
+    justify-content: end;
+    }
+
+    div#adamkeyesprofile img#adamptablet {
+        display: block;
+        width: 322px;
+        margin-bottom: 60px;
+    }
+    
+    div#nmeetu {
+        position: absolute;
+        top: 151px;
+        left: 32px;
+        width: 445px;
+        height: 449px;
+        text-align: unset;
+    }
+
+    div#nmeetu h1 {
+        font-size: 72px;
+        font-weight: bold;
+        letter-spacing: -2.05px;
+        margin-bottom: 60px;
+    }
+
+    span#l1nme {
+        display: block;
+        width: 231px;
+    }
+
+    div#nmeetu p {
+        color: var(--Grey);
+        font-size: 16px;
+        width: 343px;
+        margin: unset;
+    }
+
+    div#nmeetu p#contp {
+        color: var(--White);
+        text-decoration: underline var(--Green);
+        text-underline-offset: 10px;
+        margin-top: 34px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    div#teclist {
+        border-top: 1px solid var(--White);
+        border-bottom: 1px solid var(--White);
+        padding: 40px 0px;
+        color: white;
+        margin-bottom: 100px;
+    }
+
+
+    div.subitem {
+        width: 45%;
+        height: 98px;
+        display: inline-block;
+        margin-bottom: 52px;
+    }
+
+    p.tec {
+        display: block;
+        width: fit-content;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    
+    p.yexp {
+        display: block;
+        width: fit-content;
+        font-size: 18px;
+        color: var(--Grey);
+    }
+    
+    p#iyexp {
+        margin-bottom: 0px;
+    }
+
+    div#projects {
+        margin-bottom: 60px;
+    }
+
+    div#projects h2{
+        font-size: 72px;
+    }
+
+    div#projects p{
+        padding-top: 40px;
+    }
+
+    section#sprojects {
+        padding-left: 16px;
+        margin-bottom: 100px;
+    }
+
+    div.projectsimages {
+        width: fit-content;
+        display: inline-block;
+    }
+
+    div.projectsimages img {
+        max-width: 320px;
+    }
+
+    img.imgmarginr {
+        margin-right: 15px;
+    }
+
+    div.projectstecs {
+        display: flex;
+        color: var(--Grey);
+        width: fit-content;
+    }
+    
+    div#lastpropjectimage {
+        margin-bottom: 0px;
+    }
+
+    /* -- CONTACT */
+
+    div#contactt h2 {
+        font-size: 72px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    div#contactt p {
+        width: 445px;
+        font-size: 18px;
+        margin: auto;
+        margin-bottom: 48px;
+    }
+
+    div.formitens {
+        width: 445px;
+        margin: auto;
+    }
+
+    div#contactinputd {
+        width: 560px;
+        margin-top: 32px;
+        border-bottom: none;
+    }
+
+    /* -- FOOTER */
+
+    div#adamsocialf {
+        border-top: 1px solid;
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+
+    div#adamsocialf p {
+        margin-bottom: 0px;
+    }
+
+    div#adamsocialf img{
+        width: 24px;
+        height: 22px;
+    }
 }

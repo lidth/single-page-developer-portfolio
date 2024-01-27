@@ -27,6 +27,10 @@ main {
     padding: 0px 16px;
 }
 
+section#sprojects {
+    padding: 0px 16px;
+}
+
 img#ringsimg {
     position: absolute;
     display: block;
