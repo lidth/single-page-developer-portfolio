@@ -1,5 +1,27 @@
 @media screen and (min-width: 650px) and (max-width: 768px) {
 
+    img#ringsimg {
+        top: 86px;
+    }
+    
+    div#divcircleimg {
+        top: 471px;
+    }
+    
+    div#divringimgm {
+        top: 1047px;
+    }
+    
+    img#ringsimgm {
+        padding-left: 75%;
+    }
+    
+    img#ringsimgmf {
+        position: absolute;
+        top: 4590px;
+        left: -343px;
+    }
+
     main {
         
     }
