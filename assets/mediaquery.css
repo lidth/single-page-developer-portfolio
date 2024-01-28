@@ -37,6 +37,10 @@
         display: none;
     }
 
+    img#adampdesktop {
+        display: none;
+    }
+
     div#adamkeyesprofile {
     display: flex;
     justify-content: end;
@@ -255,7 +259,11 @@
         width: 322px;
         margin-bottom: 60px;
     }
-    
+
+    img#adampdesktop {
+        display: none;
+    }
+
     div#nmeetu {
         position: absolute;
         top: 151px;
@@ -411,4 +419,9 @@
         width: 24px;
         height: 22px;
     }
+}
+
+@media screen and (min-width: 769px){ 
+/* DESKTOP!*/
+
 }
