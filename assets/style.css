@@ -134,6 +134,16 @@ div#nmeetu p#contp {
     font-weight: bold;
 }
 
+div#nmeetu p#contp:hover{
+    cursor: pointer;
+    color: var(--Green);
+}
+
+div#projects p:hover {
+    cursor: pointer;
+    color: var(--Green);
+}
+
 div#teclist {
     border-top: 1px solid var(--White);
     border-bottom: 1px solid var(--White);
@@ -299,3 +309,4 @@ div#adamsocialf p {
     width: 19.69px;
     margin: 0px 10px;
 }
+
